@@ -1,0 +1,22 @@
+.header {
+    border-bottom: var(--header-border-bottom) solid var(--primary-light);
+}
+
+.main {
+    width: 100%;
+    height: calc(100vh - var(--header-height));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutMe {
+    width: 100%;
+    height: calc(100vh - var(--header-height));
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
